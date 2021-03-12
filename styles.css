@@ -186,7 +186,7 @@ p {
 
 /* Hero Section */
 #hero {
-  background-image: url('./img/hero-bg.png');
+  background-image: url('./img/hero-bg-360.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -215,7 +215,8 @@ p {
 #hero h1 {
   display: block;
   width: fit-content;
-  font-size: 2rem;
+  font-size: 2.6rem;
+  letter-spacing: 1.5px;
   position: relative;
   color: transparent;
   animation: text_reveal 1s ease forwards;
@@ -238,14 +239,13 @@ p {
 
 .cta { /*Button styles and effects*/
   display: inline-block;
-  padding: 10px 30px;
-  color: #7700a8;
-  background-color: transparent;
-  border: 2px solid #7700a8;
-  font-size: 2rem;
+  padding: 15px 20px;
+  color: white;
+  background-color: #7700a8;
+  border-radius: 30px;
+  font-size: 1.6rem;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: .1rem;
   margin-top: 30px;
   transition: .3s ease;
   transition-property: background-color, color;
@@ -254,9 +254,8 @@ p {
 }
 
 #hero .cta:hover {
-  color: white;
-  background-color: #7700a8;
-  color: white;
+  color: #7700a8;
+  background-color: white;
 }
 /* Hero Section End*/
 
@@ -662,8 +661,10 @@ p {
 }
 
 .brand img {
-  width: 200px;
+  width: 100px;
   height: auto;
+  margin-left: 15px;
+  margin-top: 5px;
 }
 
 .brand span {
@@ -765,6 +766,7 @@ p {
   }
 
   /* Hero */
+
   #hero h1 {
     font-size: 7rem;
   }
