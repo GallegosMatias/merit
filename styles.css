@@ -1057,6 +1057,7 @@ p {
     flex-direction: row;
     padding: 20px;
     margin: 0;
+    justify-content: center;
   }
 
   .contact-item {
@@ -1437,6 +1438,10 @@ p {
 /* Media Query For Desktop */
 @media only screen and (min-width:1601px) {
 
+  .brand {
+    margin-right: 30vw;
+  }
+
   .brand img {
     height: 66px;
     width: auto;
@@ -1451,7 +1456,7 @@ p {
     position: initial;
     display: block;
     height: auto;
-    width: fit-content;
+    width: 60vw;
     background-color: transparent;
   }
 
