@@ -1031,17 +1031,24 @@ p {
 }
 
 
+.about-right {
+  width: 60% ;
+  margin-left: 150px;
+}
+
 .about-right h2 {
   font-size: 2.6rem;
   font-weight: 700;
   letter-spacing: .2rem;
   margin-bottom: 20px;
   color: #7700a8;
+  text-align: left;
 }
 
 .about-right p {
   margin-bottom: 20px;
   font-size: 1.7rem;
+  text-align: left;
 }
 
 .about-right a { /*Button styles and effects*/
@@ -1090,6 +1097,7 @@ p {
   border: 10px solid white;
   height: 100%;
   width: 100%;
+  margin-left: 80px;
 }
 
 .about-left-img2{
@@ -1120,10 +1128,6 @@ p {
   width: 98%;
   border: 7px solid #F13613;
   z-index: -1;
-}
-
-.rubros ul {
-  padding: 30px;
 }
 
 .rubros ul li {
