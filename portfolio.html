@@ -195,10 +195,13 @@
       <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     
       <script>
-            $('.slider').bxSlider({
-            auto: true,
+            setTimeout(() => {
+                $('.slider').bxSlider({
+            auto: false,
             pager: true,
-            });
+            adaptiveHeight: true,   
+            });  
+            }, 100);
       </script> 
     
 </body>

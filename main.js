@@ -42,3 +42,4 @@ document.getElementById("mate-item").onclick = function () {
 document.getElementById("qisma-item").onclick = function () {
   location.href = "portfolio.html#qisma";
 };
+
