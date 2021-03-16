@@ -770,6 +770,71 @@ p {
 }
 /* Projects Section End */
 
+/* Portfolio Details Section Starts */
+
+.portfolio__details {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.portfolio__details-title {
+  font-size: 4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #7700a8;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+.portfolio__details-item {
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+}
+
+.portfolio__details-item-top {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.portfolio__details-item-bottom {
+  width: 100%;
+}
+
+.portfolio__details-item-card {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 0 30px rgb(30 67 86 / 8%);  
+}
+
+.portfolio__details-item-card h3 {
+  margin: 15px 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #444444;
+}
+
+.portfolio__details-item-card h3 span {
+  font-weight: 700;
+}
+
+.portfolio__card-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #444444;
+}
+
+.portfolio__details-item-img {
+  width: 900px;
+  height: auto;
+}
+
+/* Portfolio Details Section Ends */
 
 /* Contact Section */
 .contact {
