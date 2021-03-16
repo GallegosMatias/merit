@@ -26,3 +26,19 @@ menu_item.forEach(item=>{
     mobile_menu.classList.toggle('active');
   });
 });
+
+document.getElementById("naty-item").onclick = function () {
+  location.href = "portfolio.html#naty";
+};
+
+document.getElementById("drog-item").onclick = function () {
+  location.href = "portfolio.html#drog";
+};
+
+document.getElementById("mate-item").onclick = function () {
+  location.href = "portfolio.html#mate";
+};
+
+document.getElementById("qisma-item").onclick = function () {
+  location.href = "portfolio.html#qisma";
+};
