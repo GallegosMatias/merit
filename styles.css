@@ -1518,6 +1518,7 @@ p {
 
 .portfolio__details-item {
   display: flex;
+  flex-direction: row;
   width: 75vw;
 }
 
