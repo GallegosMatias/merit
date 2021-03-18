@@ -695,6 +695,10 @@ p {
   cursor: pointer;
 }
 
+.naty-large {
+  width: 85vw;
+}
+
 .projects-item-info {
   padding: 30px;
   flex-basis: 50%;
