@@ -28,15 +28,15 @@ menu_item.forEach(item=>{
 });
 
 document.getElementById("naty-item").onclick = function () {
-  location.href = "portfolio.html#naty";
+  location.href = "naty.html";
 };
 
 document.getElementById("drog-item").onclick = function () {
-  location.href = "portfolio.html#drog";
+  location.href = "drog.html";
 };
 
 document.getElementById("mate-item").onclick = function () {
-  location.href = "portfolio.html#mate";
+  location.href = "mate.html";
 };
 
 document.getElementById("qisma-item").onclick = function () {

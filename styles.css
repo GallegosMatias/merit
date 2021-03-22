@@ -683,9 +683,15 @@ p {
   flex-direction: column;
 }
 
-.naty-large {
-  width: 100  vw;
+.portfolio-large {
+  width: 100vw;
   margin: 0 auto;
+}
+
+.portfolio-large-img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .cta-projects { /*Button styles and effects*/
@@ -1063,6 +1069,11 @@ p {
   /* Services Section End */
 
   /* Projects Section */
+
+  .portfolio-large {
+    width: 70vw;
+    margin: 0 auto;
+  }
 
   /* Projects Section End */
 
