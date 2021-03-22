@@ -40,6 +40,37 @@ document.getElementById("mate-item").onclick = function () {
 };
 
 document.getElementById("qisma-item").onclick = function () {
-  location.href = "portfolio.html#qisma";
+  location.href = "qisma.html";
 };
 
+document.getElementById("bello-viajes-item").onclick = function () {
+  location.href = "bellomundo-viajes.html";
+};
+
+document.getElementById("bello-bienestar-item").onclick = function () {
+  location.href = "bellomundo-bienestar.html";
+};
+
+document.getElementById("argentinaselect-item").onclick = function () {
+  location.href = "otros.html#argentinaselect";
+};
+
+document.getElementById("poursoi-item").onclick = function () {
+  location.href = "otros.html#poursoi";
+};
+
+document.getElementById("comprasegura-item").onclick = function () {
+  location.href = "otros.html#comprasegura";
+};
+
+document.getElementById("arbolultra-item").onclick = function () {
+  location.href = "logos.html#arbolultra";
+};
+
+document.getElementById("lrd-item").onclick = function () {
+  location.href = "logos.html#lrd";
+};
+
+document.getElementById("esbelta-item").onclick = function () {
+  location.href = "logos.html#esbelta";
+};
