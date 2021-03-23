@@ -68,9 +68,9 @@ document.getElementById("arbolultra-item").onclick = function () {
 };
 
 document.getElementById("lrd-item").onclick = function () {
-  location.href = "logos.html#lrd";
+  location.href = "logos.html#ramadorada";
 };
 
 document.getElementById("esbelta-item").onclick = function () {
-  location.href = "logos.html#esbelta";
+  location.href = "otros.html#esbelta";
 };
