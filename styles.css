@@ -1186,9 +1186,10 @@ p {
   }
 
   .brand img {
-    height: 56px;
+    height: 45px;
     width: auto;
     margin-top: 20px;
+    margin-bottom: 10px;
   }
 
   .hamburger {
