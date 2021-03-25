@@ -1,3 +1,5 @@
+$(document).ready(() => {
+
 const hamburger = document.querySelector('.hamburger');
 const mobile_menu = document.querySelector('.navbar ul');
 const menu_item = document.querySelectorAll('.navbar ul a');
@@ -74,3 +76,14 @@ document.getElementById("lrd-item").onclick = function () {
 document.getElementById("esbelta-item").onclick = function () {
   location.href = "otros.html#esbelta";
 };
+
+
+  $('.txtb input').on("focus",function(){
+    $(this).addClass("focus");
+  });
+
+  $('.txtb input').on("blur",function(){
+    if($(this).val() == "")
+    $(this).removeClass("focus");
+  });
+});
