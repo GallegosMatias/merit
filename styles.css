@@ -1046,8 +1046,8 @@ textarea {
 }
 
 .footer__top-links ul li {
-  padding: 6px 15px;
-  font-size: 1.5rem;
+  padding: 6px 0px;
+  font-size: 1.1rem;
   width: 50%;
 }
 
