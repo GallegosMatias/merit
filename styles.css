@@ -41,6 +41,14 @@ p {
   color: #7700a8;
 }
 
+.brand img {
+  height: 45px;
+  width: auto;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  margin-left: 15px;
+}
+
 /* Header Section */
 #header {
   position: fixed;
@@ -390,9 +398,8 @@ p {
   font-weight: bold;
   color: #7700a8;
   margin-bottom: 10px;
-  margin-top: 100px;
+  margin-top: 150px;
   text-transform: capitalize;
-  letter-spacing: .2rem;
   text-align: center; 
 }
 
@@ -986,35 +993,77 @@ textarea {
 }
 
 .footer {
-  min-height: 200px;
+  min-height: 100px;
+  display: flex;
   flex-direction: column;
   padding-top: 30px;
   padding-bottom: 10px;
 }
 
-.footer .slogan {
-  margin-bottom: 20px;
-}
-
-.brand img {
-  width: 90px;
+.footer-logo {
+  width: 130px;
   height: auto;
-  margin-left: 15px;
-  margin-top: 25px;
+  margin-bottom: 5px;
 }
 
-.brand span {
-  color: #427AB3;
+.footer-social {
+  width: 30px;
 }
 
-.footer h2 {
-  color: white;
-  font-weight: 500;
-  font-size: 1.8rem;
-  letter-spacing: .1rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.footer__top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.footer__top-branding {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__top-links {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__top-links ul{
+  display: flex;
+  flex-wrap: wrap;
+  color: #f5f5f5;
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.footer__top-links ul li a {
+  color: #f5f5f5;
+}
+
+.footer__top-links ul li {
+  padding: 6px 15px;
+  font-size: 1.5rem;
+  width: 50%;
+}
+
+.footer__bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__bottom-copy p, .footer__bottom-design p {
+  color: white; 
+  font-size: 1.2rem;
+}
+
 
 .social-items {
   display: flex;
@@ -1707,6 +1756,78 @@ textarea {
   font-size: 2.3rem;
 }
 
+.footer {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.footer-logo {
+  width: 130px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.footer-social {
+  width: 30px;
+}
+
+.footer__top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__top-branding {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__top-links {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__top-links ul{
+  display: flex;
+  flex-wrap: wrap;
+  color: #f5f5f5;
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.footer__top-links ul li a {
+  color: #f5f5f5;
+}
+
+.footer__top-links ul li {
+  padding: 6px 15px;
+  font-size: 1.5rem;
+  width: 50%;
+}
+
+.footer__bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.footer__bottom-copy p, .footer__bottom-design p {
+  color: white; 
+  font-size: 1.2rem;
+}
+
+
 }
 
 /* Media Query For Desktop */
@@ -2002,7 +2123,79 @@ textarea {
   background-color: #f5f5f5;
 }
 
+
+
 /* Services Detail Section Ends */
+
+.footer {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.footer-logo {
+  width: 130px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.footer-social {
+  width: 30px;
+}
+
+.footer__top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__top-branding {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__top-links {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__top-links ul{
+  display: flex;
+  flex-wrap: wrap;
+  color: #f5f5f5;
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.footer__top-links ul li a {
+  color: #f5f5f5;
+}
+
+.footer__top-links ul li {
+  padding: 6px 15px;
+  font-size: 1.5rem;
+  width: 50%;
+}
+
+.footer__bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__bottom-copy p, .footer__bottom-design p {
+  color: white; 
+  font-size: 1.2rem;
+}
 
 }
 /* Media Query For Desktop End */
