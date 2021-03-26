@@ -1394,8 +1394,8 @@ textarea {
 
 
 .about-right {
-  width: 50% ;
-  margin-left: 150px;
+  width: 55% ;
+  margin-left: 10px;
 }
 
 .about-right h2 {
@@ -1431,6 +1431,14 @@ textarea {
 #experience2:hover {
   color: white;
   background-color: #F13613;
+}
+
+.about-left {
+  display: flex;
+  width: 500px;
+  height: 50vh;
+  padding-left: 10px;
+  align-items: center;
 }
 
 
