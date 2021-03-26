@@ -69,7 +69,7 @@ document.getElementById("arbolultra-item").onclick = function () {
   location.href = "logos.html#arbolultra";
 };
 
-document.getElementById("lrd-item").onclick = function () {
+document.getElementById("ramadorada-item").onclick = function () {
   location.href = "logos.html#ramadorada";
 };
 
