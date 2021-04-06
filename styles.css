@@ -1100,8 +1100,13 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 400px;
+  width: 100%;
   margin-bottom: 80px;
+}
+
+.blog__banner img {
+  width: 100%;
 }
 
 .navbar-blog ul li a {
@@ -1436,7 +1441,11 @@ textarea {
 }
 
 .blog__banner {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin-bottom: 80px;
 }
 
 .articles__container {
@@ -2135,6 +2144,11 @@ textarea {
 }
 
 .blog__banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin-bottom: 80px;
 }
 
 .articles__container {
@@ -2641,6 +2655,11 @@ textarea {
 }
 
 .blog__banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin-bottom: 80px;
 }
 
 .articles__container {
