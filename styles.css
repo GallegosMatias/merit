@@ -1097,8 +1097,16 @@ textarea {
 }
 
 .blog__banner {
-  height: 500px;
-  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin-bottom: 80px;
+}
+
+.navbar-blog ul li a {
+  color: #7700a8;
+  font-weight: bold;
 }
 
 .articles__container {
@@ -1428,8 +1436,7 @@ textarea {
 }
 
 .blog__banner {
-  height: 500px;
-  background-color: #f5f5f5;
+
 }
 
 .articles__container {
@@ -1481,7 +1488,7 @@ textarea {
 /*Blogpost*/
 
 .blogpost {
-  padding-top: 200px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   max-width: 680px;
@@ -2128,8 +2135,6 @@ textarea {
 }
 
 .blog__banner {
-  height: 500px;
-  background-color: #f5f5f5;
 }
 
 .articles__container {
@@ -2181,7 +2186,7 @@ textarea {
 /*Blogpost*/
 
 .blogpost {
-  padding-top: 200px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   max-width: 680px;
@@ -2636,8 +2641,6 @@ textarea {
 }
 
 .blog__banner {
-  height: 500px;
-  background-color: #f5f5f5;
 }
 
 .articles__container {
@@ -2689,7 +2692,7 @@ textarea {
 /*Blogpost*/
 
 .blogpost {
-  padding-top: 200px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   max-width: 680px;
