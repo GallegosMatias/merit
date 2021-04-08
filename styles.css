@@ -506,7 +506,7 @@ p {
 
 .detail__item {
   width: 96vw;
-  min-height: 1500px;
+  min-height: 1200px;
   margin: 15px 0;
   display: flex;
   flex-direction: column;
@@ -1780,7 +1780,7 @@ textarea {
 
 .detail__item {
   width: 96vw;
-  min-height: 1500px;
+  min-height: 1200px;
   margin: 15px 0;
   display: flex;
   flex-direction: column;
@@ -2452,7 +2452,7 @@ textarea {
 
 .detail__item {
   width: 96vw;
-  min-height: 1500px;
+  min-height: 1200px;
   margin: 15px 0;
   padding-bottom: 100px;
   display: flex;
@@ -2465,6 +2465,62 @@ textarea {
   text-align: center;
   margin-top: 50px;
 }
+
+.detail__item-top img {
+  width: 120px;
+}
+
+.box-marketing {
+  width: 60vw;
+  height: auto;
+  background-color: white;
+  box-shadow: 0px 0px 30px rgb(73 78 92 / 15%);
+  padding: 40px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+/*Marketing box*/
+
+.box-marketing-top {
+  width: 100%;
+  text-align: center;
+}
+
+.box-marketing-title {
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  color: #7700a8;
+  margin-bottom: 20px;
+}
+
+.box-marketing-top img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.box-marketing-mid p {
+  font-size: 1.6rem;
+  text-align: justify;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*Marketing box*/
+
+
+
+
+
 
 .detail__item-bottom {
   margin-top: 50px;
