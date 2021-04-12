@@ -1226,6 +1226,18 @@ textarea {
   font-style: normal;
 }
 
+.blogpost__content strong {
+  font-family: Arial;
+  color: #292929;
+  font-size: 18px;
+  margin-top: 2em;
+  font-weight: bold;
+  letter-spacing: -0.003em;
+  line-height: 32px;
+  word-break: break-word;
+  text-align: left;
+}
+
 .blogpost__content ol {
   width: 90%;
   margin-left: 5vw;
@@ -1237,6 +1249,24 @@ textarea {
   color: #292929;
   font-size: 21px;
   margin-top: 2em;
+  font-weight: 400;
+  letter-spacing: -0.003em;
+  line-height: 32px;
+  font-style: normal;
+  word-break: break-word;
+  text-align: left;
+}
+
+.blogpost__content ul {
+  width: 90%;
+  margin-left: 5vw;
+}
+
+.blogpost__content ul li {
+  font-family: 'Times New Roman', Times, serif;
+  color: #292929;
+  font-size: 21px;
+  margin-top: .5em;
   font-weight: 400;
   letter-spacing: -0.003em;
   line-height: 32px;
@@ -2365,6 +2395,12 @@ textarea {
   word-break: break-word;
   text-align: left;
 }
+
+.blogpost__content ul {
+  width: 90%;
+  margin-left: 1vw;
+}
+
 
 .keycaps {
   margin-top: 25px;
