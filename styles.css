@@ -2453,6 +2453,7 @@ textarea {
 
 .box-marketing-top img {
   width: 120px;
+  height: auto;
   margin-bottom: 20px;
 }
 
