@@ -269,6 +269,15 @@ p {
 }
 /* Hero Section End*/
 
+.blog_shortcut {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.blog_shortcut h1 {
+  margin-bottom: 50px;
+  font-size: 5rem;
+}
 /* About Section */
 
 .about {
