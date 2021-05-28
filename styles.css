@@ -78,7 +78,7 @@ p {
 .navbar ul {  /*Hamburger Menu Styles*/
   list-style: none;
   position: absolute;
-  background-color:#7700a8;
+  background-color:#f5f5f5;
   width: 100vw;
   height: 100vh;
   left: 100%;
@@ -101,7 +101,7 @@ p {
   font-weight: 500;
   letter-spacing: .2rem;
   text-decoration: none;
-  color: #f5f5f5;
+  color: #7700a8;
   text-transform: uppercase;
   padding: 20px;
   display: block;
@@ -118,7 +118,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  color: rgba(240, 248, 255, 0.021);
+  color: rgba(210, 79, 243, 0.068);
   font-size: 9rem;
   letter-spacing: 50px;
   z-index: -1;
@@ -133,7 +133,7 @@ p {
 .hamburger {
   height: 50px;
   width: 50px;
-  border: 3px solid #f5f5f5;
+  border: 3px solid #7700a8;
   border-radius: 50%;
   position: relative;
   display: flex;
@@ -153,7 +153,7 @@ p {
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  border: 3px solid #f5f5f5;
+  border: 3px solid #7700a8;
   animation: hamburger_puls 1s ease infinite;
 }
 
@@ -161,7 +161,7 @@ p {
   height: 2px;
   width: 30px;
   position: relative;
-  background-color: #f5f5f5;
+  background-color: #7700a8;
   z-index: -1;
 }
 
@@ -172,7 +172,7 @@ p {
   height: 100%;
   width: 100%;
   left: 0;
-  background-color: #f5f5f5;
+  background-color: #7700a8;
   transition: .3s ease;
   transition-property: top, bottom;
 }
@@ -210,7 +210,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #F13613;
+  background-color: #7700a8;
   opacity: .28;
   z-index: -1;
 }
@@ -989,7 +989,7 @@ textarea {
 
 /* Footer */
 #footer {
-  background-color: #f13613;
+  background-color: #7700a8;
 }
 
 .footer {
@@ -1442,7 +1442,7 @@ textarea {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #F13613;
+    background-color: #7700a8;
     opacity: .28;
     z-index: -1;
   }
@@ -1752,7 +1752,7 @@ textarea {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #F13613;
+    background-color: #7700a8;
     opacity: .28;
     z-index: -1;
   }
@@ -2522,7 +2522,7 @@ textarea {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #F13613;
+    background-color: #7700a8;
     opacity: .28;
     z-index: -1;
   }
