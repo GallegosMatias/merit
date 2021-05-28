@@ -1066,6 +1066,7 @@ textarea {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-top: 15px;
 }
 
 .footer__bottom-copy p, .footer__bottom-design p {
@@ -2263,6 +2264,10 @@ textarea {
 .footer__bottom-copy p, .footer__bottom-design p {
   color: white; 
   font-size: 1.2rem;
+}
+
+.footer__bottom-design {
+  margin-right: 130px;
 }
 
 /* Blog styles */
