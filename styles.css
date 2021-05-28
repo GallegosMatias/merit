@@ -42,7 +42,7 @@ p {
 }
 
 .brand img {
-  height: 45px;
+  height: 50px;
   width: auto;
   margin-top: 5px;
   margin-bottom: 1px;
@@ -1713,7 +1713,7 @@ textarea {
   }
 
   .brand img {
-    height: 45px;
+    height: 65px;
     width: auto;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -2492,7 +2492,7 @@ textarea {
   }
 
   .brand img {
-    height: 66px;
+    height: 80px;
     width: auto;
     margin-top: 20px;
   }
