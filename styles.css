@@ -105,17 +105,18 @@ p {
 
 .navbar ul li a {
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: bold;
   letter-spacing: .2rem;
   text-decoration: none;
-  color: #7700a8;
+  color: #f5f5f5;
   text-transform: uppercase;
   padding: 20px;
   display: block;
+
 }
 
 .navbar ul li:hover a {
-  color: #7700a8;
+  color: #f5f5f5;
   font-weight: bold;
 }
 
@@ -1418,7 +1419,7 @@ textarea {
 
 @keyframes text_reveal_name {
   100%{
-    color: #7700a8;
+    color: #f5f5f5;
     font-weight: bold;
   }
 }
